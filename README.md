@@ -5,6 +5,7 @@ Instalación:
 4. Desde el navegador ingrese en la barra de búsqueda "localhost:3000/"
 
 Explicación:
+
   La interfaz presenta inicialmente un filtro que desliza horizontalmente para accedes a las diferentes etiquetas que permiten seleccionar la categoría de artículos que se desea buscar. Mas, si esto no le es suficiente, puede dirigirse a la página de búsqueda mediante el botón con un ícono de lupa.
   
   En la página de búsqueda puede ver una lista con todas las publicaciones existentes y un pequeño formulario donde puede ingresar el título del artículo que desea encontrar. Para borrar el formulario de forma instantánea puede presionar el botón un ícono de "X".
