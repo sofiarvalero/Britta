@@ -1,4 +1,4 @@
-// Hecho por Samuel Castill
+// Hecho por Samuel Castillo
 
 const UsuariosModel = require('../models/usuario.model');
 
