@@ -1,0 +1,191 @@
+/* Hecho por Samuel Castillo */
+
+body {
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 10px;
+    opacity: 0%;
+}
+
+.encabezado div {
+    display: flex;
+}
+
+.buscar-input {
+    width: 100%;
+    border: 0px;
+    color: #828282;
+    font-size: 24px;
+    font-family: Inter;
+    line-height: 150%;
+}
+
+.regresar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #383838;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regresar img {
+    height: 22px;
+    width: 22px;
+}
+
+.buscar-figure {
+    margin: 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.buscar-figure img {
+    width: 22px;
+    height: 22px;
+}
+
+.cerrar {
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.cerrar img {
+    width: 22px;
+    height: 22px;
+}
+
+.articulos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 10px;
+    overflow: auto;
+}
+
+.articulos::-webkit-scrollbar {
+    display: none;
+}
+
+.articulo {
+    height: 320px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+
+.articulo figure {
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    height: 300px;
+    align-items: center;
+}
+
+.articulo figure img {
+    height: auto;
+    width: 100%;
+}
+
+.articulo div header h3, .articulo div p {
+    font-family: Inter;
+    margin: 0px;
+}
+
+.articulo div header h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.articulo div p {
+    color: #454545;
+    font-size: 12px;
+    line-height: 125%;
+}
+
+.articulo div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#cortina {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    height: 100%;
+    background-color: #2C2C2C;
+}
+
+@media (max-width: 1279px) {
+    body {
+      padding-top: 40px;
+      height: 95vh;
+      margin-top: 0px;
+    }
+
+    .regresar, .buscar-figure, .cerrar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .buscar-input {
+        font-size: 20px;
+    }
+
+    .articulo div header h3 {
+      font-size: 15px;
+    }
+  
+    .articulo div p {
+        font-size: 7px;
+    }
+  
+    .articulo {
+        height: 247px;
+    }
+  
+    .articulos {
+        padding: 0px;
+    }
+}
+  
