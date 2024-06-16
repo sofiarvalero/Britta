@@ -1,4 +1,4 @@
-// Hecho por Samuel Castillo
+// Hecho por Samuel Castill
 
 const CategoriasModel = require('../models/categorias.model');
 
