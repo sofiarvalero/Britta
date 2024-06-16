@@ -43,7 +43,7 @@ fetch('http://localhost:3000/etiquetas')
                             const header = document.createElement('header');
                             const h3 = document.createElement('h3');
                             const p = document.createElement('p');
-                
+                            //
                             article.classList.add('articulo');
                             article.id = publicacion.id;
                             img.src = publicacion.imagen;
