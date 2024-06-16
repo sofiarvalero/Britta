@@ -1,8 +1,9 @@
 Instalación:
 1. Descargue el proyecto y descomprima el archivo .zip
 2. Acceda a la carpeta del proyecto descomprimido
-3. Ejecute el comando: "npm start"
-4. Desde el navegador ingrese en la barra de búsqueda "localhost:3000/"
+3. Cree el archivo .env con los datos de la DB según los requerimientos en el archivo db/connection.js
+4. Ejecute el comando: "npm start"
+5. Desde el navegador ingrese en la barra de búsqueda "localhost:3000/"
 
 Explicación:
 
