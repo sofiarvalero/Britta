@@ -49,6 +49,20 @@ fetch('http://localhost:3000/etiquetas')
                             img.src = publicacion.imagen;
                             h3.textContent = publicacion.titulo;
                             p.textContent = publicacion.informacion.substr(0, 127) + '...';
+
+                            article.addEventListener('click', () => {
+                                i = 1;
+                        
+                                const cortinaWidth = setInterval(() => {
+                                    cortina.style.setProperty('width', i + '%');
+                                    i += i/15;
+                                }, 10);
+                        
+                                setTimeout(() => {
+                                    clearInterval(cortinaWidth);
+                                    window.location.replace(`/document/?pub=${ publicacion.id }`);
+                                }, 1000);
+                            });
                 
                             article.appendChild(figure);
                             article.appendChild(div);
